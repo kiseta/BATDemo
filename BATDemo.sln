@@ -1,21 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30324.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "BATDemo", "http://localhost:12142", "{03E10242-0411-47C8-94B4-30780AD92A4E}"
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_12142"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Dropbox\SimpleProgrammer\Projects\BATDemo\BATDemo"
+		Debug.AspNetCompiler.PhysicalPath = "BATDemo\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_12142\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_12142"
-		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\Dropbox\SimpleProgrammer\Projects\BATDemo\BATDemo"
+		Release.AspNetCompiler.PhysicalPath = "BATDemo\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_12142\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
@@ -50,5 +50,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11B840D5-B75E-43F5-B563-52713B2E8A1A}
 	EndGlobalSection
 EndGlobal

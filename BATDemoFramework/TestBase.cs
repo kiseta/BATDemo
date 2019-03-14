@@ -6,14 +6,14 @@ namespace BATDemoFramework
     [TestFixture]
     public class TestBase
     {
-        [TestFixtureSetUp]
+        [SetUp]
         public static void Initialize()
         {
             Browser.Initialize();
             UserGenerator.Initialize();
         }        
 
-        [TestFixtureTearDown]
+        [TearDown]
         public static void TestFixtureTearDown()
         {
             Browser.Close();
